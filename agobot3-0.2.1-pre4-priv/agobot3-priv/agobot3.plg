@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: getmd5 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\r_random.c'
+
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSP357D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/getmd5.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\main.cpp"
+"C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\md5c.c"
+"C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\r_random.c"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSP357D.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSP357E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/getmd5d.pdb" /debug /machine:I386 /out:"../bin/win32/getmd5d.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\md5c.obj"
+".\Debug\r_random.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSP357E.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+fatal error C1083: Cannot open source file: 'C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\main.cpp': No such file or directory
+md5c.c
+fatal error C1083: Cannot open source file: 'C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\md5c.c': No such file or directory
+r_random.c
+fatal error C1083: Cannot open source file: 'C:\Users\Pro\Desktop\agobot3-0.2.1-pre4-priv\agobot3-priv\getmd5\r_random.c': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+getmd5d.exe - 3 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

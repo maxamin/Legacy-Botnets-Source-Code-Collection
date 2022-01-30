@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zSwarm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPD5F5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/zSwarm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\install.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\irc.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\msn.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\seed.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\ssyn.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\udp.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\usb.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\xSwarm.cpp"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSPD5F5.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPD5F6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/zSwarm.pdb" /machine:I386 /out:"Release/zSwarm.exe" 
+".\Release\global.obj"
+".\Release\install.obj"
+".\Release\irc.obj"
+".\Release\msn.obj"
+".\Release\seed.obj"
+".\Release\ssyn.obj"
+".\Release\udp.obj"
+".\Release\usb.obj"
+".\Release\xSwarm.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSPD5F6.tmp"
+<h3>Output Window</h3>
+Compiling...
+global.cpp
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(72) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(72) : error C2065: 'VER_NT_WORKSTATION' : undeclared identifier
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(74) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(76) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(78) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(80) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(82) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(84) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(86) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\global.cpp(88) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+install.cpp
+irc.cpp
+msn.cpp
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\msn.cpp(53) : warning C4065: switch statement contains 'default' but no 'case' labels
+C:\Users\Pro\Desktop\IRC SETUP\Swarm Mod\Asper-Mod\msn.cpp(185) : warning C4244: 'argument' : conversion from 'short' to 'unsigned char', possible loss of data
+seed.cpp
+ssyn.cpp
+udp.cpp
+usb.cpp
+xSwarm.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+zSwarm.exe - 10 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

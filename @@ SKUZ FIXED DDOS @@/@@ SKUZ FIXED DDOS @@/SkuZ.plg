@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SkuZ - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSP371F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"SkuZ/SkuZ.pch" /YX /Fo"SkuZ/" /Fd"SkuZ/" /FD /c 
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Asn.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Dcom.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Dss.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Land.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Lsass.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Map.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Masn.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Netbios.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\Pnp.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Adv.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Crc.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Cry.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\ddos.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Ide.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Ldll.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Rnd.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Shel.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\SkuZ.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Sys.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Test.cpp"
+"C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Thr.cpp"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSP371F.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSP3720.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"SkuZ/SkuZ.pdb" /machine:I386 /out:"SkuZ.exe" 
+".\SkuZ\Asn.obj"
+".\SkuZ\Dcom.obj"
+".\SkuZ\Dss.obj"
+".\SkuZ\Land.obj"
+".\SkuZ\Lsass.obj"
+".\SkuZ\Map.obj"
+".\SkuZ\Masn.obj"
+".\SkuZ\Netbios.obj"
+".\SkuZ\Pnp.obj"
+".\SkuZ\Adv.obj"
+".\SkuZ\Crc.obj"
+".\SkuZ\Cry.obj"
+".\SkuZ\ddos.obj"
+".\SkuZ\Ide.obj"
+".\SkuZ\Ldll.obj"
+".\SkuZ\Rnd.obj"
+".\SkuZ\Shel.obj"
+".\SkuZ\SkuZ.obj"
+".\SkuZ\Sys.obj"
+".\SkuZ\Test.obj"
+".\SkuZ\Thr.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSP3720.tmp"
+<h3>Output Window</h3>
+Compiling...
+Asn.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Dcom.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Dss.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Land.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Lsass.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Map.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Masn.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Netbios.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Pnp.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Scanners\..\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Adv.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Crc.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Cry.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+ddos.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Ide.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Ldll.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Rnd.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Shel.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+SkuZ.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Sys.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Test.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Thr.cpp
+C:\Users\Pro\Desktop\@@ SKUZ FIXED DDOS @@\@@ SKUZ FIXED DDOS @@\Inc.h(22) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+SkuZ.exe - 21 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

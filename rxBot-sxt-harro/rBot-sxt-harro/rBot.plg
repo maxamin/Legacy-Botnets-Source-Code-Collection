@@ -1,0 +1,252 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rBot - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPB674.tmp" with contents
+[
+/nologo /ML /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/rBot.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\advscan.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\aliaslog.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\autostart.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\beagle.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\capture.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\cdkeys.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\crc32.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\crypt.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\dameware.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\dcc.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\dcom.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\dcom2.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\ddos.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\download.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\driveinfo.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\findfile.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\flood.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\fphost.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\httpd.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\ident.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\irc_send.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\keylogger.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\kuang2.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\loaddlls.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\lsass.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\misc.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\mssql.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\mydoom.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\net.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\netbios.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\netdevil.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\netutils.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\ntpass.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\optix.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\pingudp.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\processes.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\psniff.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\rBot.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\redirect.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\remotecmd.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\rndnick.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\scan.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\secure.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\shellcode.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\socks4.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\sub7.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\synflood.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\sysinfo.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\tcpflood.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\tftpd.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\threads.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\upnp.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\visit.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\webdav.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\wildcard.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\workstation.cpp"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSPB674.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPB675.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/rBot.pdb" /machine:I386 /out:"Release/rBot.exe" /ignore:4108 /align:4096 
+".\Release\advscan.obj"
+".\Release\aliaslog.obj"
+".\Release\autostart.obj"
+".\Release\beagle.obj"
+".\Release\capture.obj"
+".\Release\cdkeys.obj"
+".\Release\crc32.obj"
+".\Release\crypt.obj"
+".\Release\dameware.obj"
+".\Release\dcc.obj"
+".\Release\dcom.obj"
+".\Release\dcom2.obj"
+".\Release\ddos.obj"
+".\Release\download.obj"
+".\Release\driveinfo.obj"
+".\Release\findfile.obj"
+".\Release\flood.obj"
+".\Release\fphost.obj"
+".\Release\httpd.obj"
+".\Release\ident.obj"
+".\Release\irc_send.obj"
+".\Release\keylogger.obj"
+".\Release\kuang2.obj"
+".\Release\loaddlls.obj"
+".\Release\lsass.obj"
+".\Release\misc.obj"
+".\Release\mssql.obj"
+".\Release\mydoom.obj"
+".\Release\net.obj"
+".\Release\netbios.obj"
+".\Release\netdevil.obj"
+".\Release\netutils.obj"
+".\Release\ntpass.obj"
+".\Release\optix.obj"
+".\Release\pingudp.obj"
+".\Release\processes.obj"
+".\Release\psniff.obj"
+".\Release\rBot.obj"
+".\Release\redirect.obj"
+".\Release\remotecmd.obj"
+".\Release\rndnick.obj"
+".\Release\scan.obj"
+".\Release\secure.obj"
+".\Release\shellcode.obj"
+".\Release\socks4.obj"
+".\Release\sub7.obj"
+".\Release\synflood.obj"
+".\Release\sysinfo.obj"
+".\Release\tcpflood.obj"
+".\Release\tftpd.obj"
+".\Release\threads.obj"
+".\Release\upnp.obj"
+".\Release\visit.obj"
+".\Release\webdav.obj"
+".\Release\wildcard.obj"
+".\Release\workstation.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSPB675.tmp"
+<h3>Output Window</h3>
+Compiling...
+advscan.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+aliaslog.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+autostart.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+beagle.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+capture.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+cdkeys.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+crc32.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+crypt.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+dameware.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+dcc.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+dcom.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+dcom2.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+ddos.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+download.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+driveinfo.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+findfile.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+flood.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+fphost.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+httpd.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+ident.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+irc_send.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+keylogger.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+kuang2.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+loaddlls.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+lsass.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+misc.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+mssql.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+mydoom.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+net.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+netbios.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+netdevil.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+netutils.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+ntpass.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+optix.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+pingudp.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+processes.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+psniff.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+rBot.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+redirect.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+remotecmd.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+rndnick.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+scan.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+secure.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+shellcode.cpp
+socks4.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+sub7.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+synflood.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+sysinfo.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+tcpflood.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+tftpd.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+threads.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+upnp.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+visit.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+webdav.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+wildcard.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+workstation.cpp
+C:\Users\Pro\Desktop\IRC SETUP\rxBot-sxt-harro\rBot-sxt-harro\includes.h(21) : fatal error C1083: Cannot open include file: 'windns.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+rBot.exe - 55 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

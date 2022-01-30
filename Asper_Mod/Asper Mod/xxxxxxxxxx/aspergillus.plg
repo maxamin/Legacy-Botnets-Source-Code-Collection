@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: aspergillus - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPE8C5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Release/" /Fp"Release/aspergillus.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\downloader.cpp"
+"C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\irc.cpp"
+"C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\main.cpp"
+"C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\service.cpp"
+"C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSPE8C5.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPE8C6.tmp" with contents
+[
+ws2_32.lib User32.lib advapi32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/aspergillus.pdb" /machine:I386 /out:"Release/aspergillus.exe" 
+".\Release\downloader.obj"
+".\Release\irc.obj"
+".\Release\main.obj"
+".\Release\service.obj"
+".\Release\shared.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSPE8C6.tmp"
+<h3>Output Window</h3>
+Compiling...
+downloader.cpp
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\downloader.cpp(176) : error C2065: 'SHGetFolderPath' : undeclared identifier
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\downloader.cpp(176) : error C2065: 'CSIDL_FLAG_CREATE' : undeclared identifier
+irc.cpp
+main.cpp
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\irc.cpp(592) : error C4716: 'IRC_Thread' : must return a value
+service.cpp
+shared.cpp
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\service.cpp(61) : error C4716: 'SC_Thread' : must return a value
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp(105) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp(105) : error C2065: 'VER_NT_WORKSTATION' : undeclared identifier
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp(110) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp(115) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+C:\Users\Pro\Desktop\Asper_Mod\Asper Mod\xxxxxxxxxx\shared.cpp(120) : error C2039: 'wProductType' : is not a member of '_OSVERSIONINFOEXA'
+        C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\winbase.h(7998) : see declaration of '_OSVERSIONINFOEXA'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+aspergillus.exe - 9 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

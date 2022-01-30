@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ganja - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPFEA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Ganja.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\botrestart.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\Dowload.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\email.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\html.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\Intstall.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\IRC_Connect.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\msn.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\ssyn.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\udp.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\wGanja.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\wOthers.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\wThreads.cpp"
+"C:\Users\Pro\Desktop\IRC SETUP\ganja 3.1-iRooT BoT\wUSB.cpp"
+]
+Creating command line "cl.exe @C:\Users\Pro\AppData\Local\Temp\RSPFEA.tmp" 
+Creating temporary file "C:\Users\Pro\AppData\Local\Temp\RSPFEB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Cyanide.pdb" /machine:I386 /out:"Release/Cyanide.exe" 
+".\Release\botrestart.obj"
+".\Release\Dowload.obj"
+".\Release\email.obj"
+".\Release\html.obj"
+".\Release\Intstall.obj"
+".\Release\IRC_Connect.obj"
+".\Release\msn.obj"
+".\Release\ssyn.obj"
+".\Release\udp.obj"
+".\Release\wGanja.obj"
+".\Release\wOthers.obj"
+".\Release\wThreads.obj"
+".\Release\wUSB.obj"
+]
+Creating command line "link.exe @C:\Users\Pro\AppData\Local\Temp\RSPFEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+botrestart.cpp
+Dowload.cpp
+email.cpp
+html.cpp
+Intstall.cpp
+IRC_Connect.cpp
+msn.cpp
+ssyn.cpp
+udp.cpp
+wGanja.cpp
+wOthers.cpp
+wThreads.cpp
+wUSB.cpp
+Linking...
+IRC_Connect.obj : error LNK2001: unresolved external symbol "unsigned long __stdcall BotKillerz(void *)" (?BotKillerz@@YGKPAX@Z)
+IRC_Connect.obj : error LNK2001: unresolved external symbol "bool botkilling" (?botkilling@@3_NA)
+Release/Cyanide.exe : fatal error LNK1120: 2 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Cyanide.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
